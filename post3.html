@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+        <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Challenges in Synthetic Biology: Engineering Life with Biophysics | Physiome</title>
+        <link rel="icon" type="image/x-icon" href="logo.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<!-- Core theme CSS (includes Bootstrap)-->
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+<body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <img src="p.png" width="125" height="125">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
+                        </ul>
+                </div>
+            </div>
+        </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('bg.png')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Why do Leaves Change their Color in the Fall? The Biophysics behind Photosynthesis</h1>
+            <h2 class="subheading">An Analysis of the Biophysics Governing Photosynthesis-Driven Foliage Color Transformation</h2>
+            <span class="meta">Posted by
+              <a href="about.html">Jahanvi Chamria</a>
+              on June 1, 2023</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <main class="mb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <p>Synthetic biology is a biophysical discipline seeking explanations for the origins of life from physical and chemical principles and using them to engineer artificial biological systems and organisms. Currently, it encompasses cell-free, mammalian, bacterial and multicellular systems. Many of the biological elements like programmable DNA and RNA have been derived from their natural counterparts while some are entirely synthetic. Applications of synthetic biology include: bioremediation of industrial waste for space missions and creation of models to study mechanisms of development. However, there exists an inherent difference between biological and engineered systems. Biological systems are governed by modularity, stochasticity, evolvability, robustness and analog computation whereas engineered systems behave deterministically, neither replicating nor evolving. </p>
+
+            <p>Modularity: In synthetic biology, a forward-engineering perspective is considered, inspired by electronics and software design. Modules like oscillatos mimicking the circadian rhythm or precisely timed genetic modules should behave predictably when connected with other modules. However, modules may form unexpected secondary structures during recombination. Attempts to assemble modules into more complex systems have presented challenges. This may be because the characteristics of the biological processes are not understood or emulated well. </p>
+            
+            <p>Stochasticity: Life at the molecular level is dictated by statistical mechanics which only appear orderly when averaged over populations. The stochastic nature of biology can be understood using synthetic biology and techniques such as fluorescence microscopy. It is important to quantify noise in synthetic biology. Mathematical models like master equations and Langevin equations can be used to analyze the stochastic dynamics of gene regulatory networks at the single-cell level. While most studies focus on linear systems and analytical solutions for noise propagation, it becomes more difficult as the number of variables increases. Stochasticity in cellular dynamics can lead to discrete phenotypes in genetically identical populations. This stochastic decision-making among cellular phenotypes has functional implications in various cell types, including soil bacteria, E. coli, and stem cells. For example, in Saccharomyces cerevisiae, genetic modifications were employed to study the impact of gene expression noise on cell survival under environmental stress, demonstrating that larger expression noise in an antibiotic resistance gene could aid in cell survival. The influence of stochasticity at the single-cell level on bulk measurements of cell populations can be used to design genetic circuits exploiting this effect. </p>
+            
+            <p>Evolvability and robustness: Evolvability in synthetic biology refers to the potential of living systems to reproduce, generate variation, and evolve through Darwinian selection. It can be harnessed for directed evolution, a methodology used to search for new biological traits by artificially accelerating evolution. It can also be used to manipulate evolutionary processes to prevent mutation and variation. Evolvability encompasses not only present genetic variation but also the ability of populations to tune their mutation rates to explore optimal genotype spaces. Examples of studies include rewiring transcription networks in E. coli and recombining protein signaling domains in yeast. The challenges faced by synthetic biologists include the fitness penalty associated with synthetic circuits. Mutational failures can be delayed by slowing down evolution, by upregulating DNA repair pathways. However, these strategies may only offer limited stabilization of synthetic circuits in the long term. Another strategy involves linking host survival to the synthetic circuit, ensuring that the circuit is beneficial for the host organism. The robustness of synthetic networks is crucial for various transformative applications of synthetic biology, such as developmental programs for synthetic tissues and ecological-scale applications using genetically modified populations. </p>
+            
+            <p>Analog computation: Synthetic biology enables us to engineer computational and signal-processing capabilities into living cells. Computational tasks include amplification, signal integration, timing and storing information. Digital computation has been a dominant approach, with the construction of digital biological circuits such as the toggle switch and more complex circuits. Challenges in this realm include ensuring uniqueness (orthogonality) of biological parts to avoid molecular cross-talk, addressing speed limitations in gene regulation, and managing energy consumption and leakage. Advances in synthetic transcription factors (TFs), like zinc-finger proteins and CRISPR-Cas9, have the potential to overcome these limitations. The use of RNA-based logic circuits is also a way to improve response times and reduce energy demands. Analog circuits are a powerful alternative to digital circuits, allowing for more complex computations using continuous ranges of concentrations. While some natural systems exhibit binary decision-making, many demonstrate graded, analog responses to environmental inputs. Such analog feedback control has applications in fields like medical devices for blood sugar regulation and therapies based on synthetic biology.</p>
+            
+            <p>Control: Biochemical control mechanisms are essential for governing biological processes. It is important to understand and apply control mechanisms in synthetic biology. Examples where control mechanisms have been employed in synthetic biology applications include regulating biofuel synthesis and morphogenetic patterns in engineered organisms. The concept of fuzzy, multi-input/multi-output (MIMO) control is less explored in synthetic biology but common in transcription, translation, and cell-signaling networks. MIMO control allows cells to make decisions based on weighted inputs, offering potential applications in detecting molecular profiles associated with different cancer types. Feedback mechanisms might have played a vital role in the evolution of complex networks from prebiotic conditions. Positive feedback could have allowed primal replicators to maximize biopolymer synthesis, while negative feedback might have prevented population collapse and facilitated the evolution of hereditary memory in chemical networks. Modern analogs of "chemical gardens," such as synthetic RNA replicators, have reproduced and evolved under laboratory conditions.</p>
+            
+            <p>Synthetic biology has evolved into a diverse interdisciplinary field. It presents various research areas, including in vitro reconstituted systems, synthetic microbial ecosystems, and whole-cell computational simulations. This article has focused on the unique biophysical properties of living systems, challenging traditional engineering approaches. </p>
+            
+            <div class="ref">
+                REFERENCES:<br>
+                https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5376109/
+        https://www.annualreviews.org/doi/pdf/10.1146/annurev-biophys-070816-033903
+        
+            </div>
+          </div>
+      </div>
+    </div>
+    
+</main>
+  </article>
+
+  <hr>
+  <footer class="border-top">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item">
+                        <a href="https://github.com/jahanvichamria">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="../static/js/scripts.js"></script>
+</body>
